@@ -75,6 +75,11 @@ img{
   display: block;
 }
 
+
+#first-img, #second-img, #third-img, #fourth-img, #first-project,
+#second-project, #third-project, #fourth-project {
+  display: none;
+}
 /*===== CLASS CSS ===== */
 .section-title{
   position: relative;
@@ -182,6 +187,10 @@ img{
 /*=== Show menu ===*/
 .show{
   right: 0;
+}
+
+.show_m{
+  display: block;
 }
 
 /*===== HOME =====*/
@@ -305,6 +314,15 @@ img{
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
+}
+
+.dot {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 /* ===== MEDIA QUERIES=====*/
