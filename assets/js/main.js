@@ -57,17 +57,3 @@ sr.reveal('.work__img',{interval: 200});
 sr.reveal('.contact__input',{interval: 200}); 
 
 /*==== PROJECT ===== */
-const showProject = (proyectId, dotId, imageId) =>{
-    const dot = document.getElementById(dotId),    
-    proyect = document.getElementById(proyectId),
-    image = document.getElementById(imageId)
-
-    if(dot && proyect){
-        dot.addEventListener('click', ()=>{
-            proyect.classList.toggle('show_m')
-            image.classList.toggle('show_m')
-        })
-    }
-}
-
-showMenu('first-project','first-dot', 'first-img')

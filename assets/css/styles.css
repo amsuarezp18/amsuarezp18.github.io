@@ -342,6 +342,9 @@ img{
     top: 3rem;
   }
 
+  .nosep {
+    text-align: center;
+  }
   .nav{
     height: calc(var(--header-height) + 1rem);
   }
