@@ -415,7 +415,7 @@ img{
   }
   .home__img{
     width: 687px;
-    bottom: 15%;
+    bottom: 6%;
   }
 
   .about__container, .skills__container{
@@ -424,7 +424,7 @@ img{
     text-align: initial;
   }
   .about__img img{
-    width: 300px;
+    width: 450px;
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
