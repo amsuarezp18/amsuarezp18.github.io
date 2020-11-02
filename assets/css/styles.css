@@ -276,6 +276,16 @@ img{
   background-color: #D3E3FD;
   color: #4871FB ;
 }
+
+.work__container{
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.projects__container{
+  row-gap: 2rem;
+  text-align: center;
+}
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
@@ -358,6 +368,17 @@ img{
     text-align: initial;
   }
 
+  .work__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: initial;
+  }
+
+  .projects__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: initial;
+  }
   .skill__container {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
