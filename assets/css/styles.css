@@ -248,6 +248,34 @@ img{
   border-radius: .5rem;
 }
 
+/*==== SKILLS =====*/
+.skill__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.skills__img{
+  justify-self: center;
+}
+.nosep {
+  margin-bottom: 20px;
+}
+.skill__name {
+  height: 20px;
+  width: auto;
+  padding: 8px;
+  margin-left: 2px;
+  margin-right: 2px;
+  bottom: 70px;
+  background-color: #4871FB;
+  color: #fff;
+  border-radius: 6.75px;
+}
+
+.skill__name:hover {
+  background-color: #D3E3FD;
+  color: #4871FB ;
+}
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
@@ -329,8 +357,14 @@ img{
     align-items: center;
     text-align: initial;
   }
+
+  .skill__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: initial;
+  }
   .about__img img{
-    width: 450px;
+    width: 400px;
   }
 
   .contact__form{
@@ -348,5 +382,6 @@ img{
   }
   .home__img{
     right: 10%;
+    margin-bottom: 80px;
   }
 }
