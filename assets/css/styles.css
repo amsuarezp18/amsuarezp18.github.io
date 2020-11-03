@@ -300,6 +300,24 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
+.button-demo-as{
+  text-align: center;
+  display: inline-block;
+  background-color: #358839;
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+}
+
+.button-demo-as:hover{
+  text-decoration: none;
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  color: #fff;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
 /* ===== ABOUT =====*/
 .about__container-as{
   row-gap: 2rem;
