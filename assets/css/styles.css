@@ -276,6 +276,16 @@ img{
   width: 395px;
 }
 
+.arrow-project {
+  text-align: center;
+}
+
+
+.projects-text {
+  color: var(--second-color);
+  text-align: center;
+  padding-top: 60px;
+}
 /*BUTTONS*/
 .button-as{
   display: inline-block;
