@@ -66,6 +66,7 @@ ul{
   padding: 0;
   list-style: none;
 }
+
 a{
   text-decoration: none;
 }
@@ -149,6 +150,7 @@ img{
 }
 .nav__link-as:hover{
   position: relative;
+  text-decoration: none;
 }
 .nav__link-as:hover::after{
   position: absolute;
@@ -293,6 +295,7 @@ img{
 }
 .projects__img-as img{
   transition: 1s;
+  
   cursor: pointer;
 }
 .projects__img-as img:hover{
