@@ -5,23 +5,23 @@ const showMenu = (toggleId, navId) =>{
 
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('show')
+            nav.classList.toggle('show-as')
         })
     }
 }
 showMenu('nav-toggle','nav-menu')
 
 /*===== ACTIVE AND REMOVE MENU =====*/
-const navLink = document.querySelectorAll('.nav__link');   
+const navLink = document.querySelectorAll('.nav__link-as');   
 
 function linkAction(){
   /*Active link*/
-  navLink.forEach(n => n.classList.remove('active'));
-  this.classList.add('active');
+  navLink.forEach(n => n.classList.remove('active-as'));
+  this.classList.add('active-as');
   
   /*Remove menu mobile*/
   const navMenu = document.getElementById('nav-menu')
-  navMenu.classList.remove('show')
+  navMenu.classList.remove('show-as')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
