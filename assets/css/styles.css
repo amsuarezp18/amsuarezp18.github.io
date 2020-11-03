@@ -276,6 +276,7 @@ img{
   width: 395px;
 }
 
+
 .arrow-project {
   text-align: center;
 }
@@ -443,7 +444,9 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img-as{
-    width: 687px;
+    width: 587px;
+    right: 0;
+    margin-bottom: 60px;
   }
 
   .about__container-as {
@@ -485,7 +488,27 @@ img{
     margin-right: auto;
   }
   .home__img-as {
-    right: 10%;
-    margin-bottom: 80px;
+    right: 5%;
+    margin-bottom: 190px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .home__img-as {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 587px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .home__img-as {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 22px;
+    width: 395px;
   }
 }
