@@ -128,8 +128,8 @@ img{
   width: 100%;
   height: 40vh;
   background-image: linear-gradient(
-    rgba(72,113,251,1),
-      rgba(3, 218, 197, 0.5)
+    rgba(3,114,218,0.5),
+      rgba(211, 227, 253, 1)
     ),
     url("/assets/img/work6.jpg");
   background-repeat: no-repeat;
@@ -142,8 +142,8 @@ img{
   width: 100%;
   height: 40vh;
   background-image: linear-gradient(
-      rgba(3, 218, 198, 0.5),
-      rgba(3, 218, 197, 0.5)
+    rgba(3,114,218,0.5),
+    rgba(211, 227, 253, 1)
     ),
     url("/assets/img/work2.jpg");
   background-repeat: no-repeat;
@@ -156,8 +156,8 @@ img{
   width: 100%;
   height: 40vh;
   background-image: linear-gradient(
-      rgba(3, 218, 198, 0.5),
-      rgba(3, 218, 197, 0.5)
+      rgba(3,114,218,0.5),
+      rgba(211, 227, 253, 1)
     ),
     url("/assets/img/work4.jpg");
   background-repeat: no-repeat;
