@@ -5,23 +5,23 @@ const showMenu = (toggleId, navId) =>{
 
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('show')
+            nav.classList.toggle('show-as')
         })
     }
 }
 showMenu('nav-toggle','nav-menu')
 
 /*===== ACTIVE AND REMOVE MENU =====*/
-const navLink = document.querySelectorAll('.nav__link');   
+const navLink = document.querySelectorAll('.nav__link-as');   
 
 function linkAction(){
   /*Active link*/
-  navLink.forEach(n => n.classList.remove('active'));
-  this.classList.add('active');
+  navLink.forEach(n => n.classList.remove('active-as'));
+  this.classList.add('active-as');
   
   /*Remove menu mobile*/
   const navMenu = document.getElementById('nav-menu')
-  navMenu.classList.remove('show')
+  navMenu.classList.remove('show-as')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
@@ -51,7 +51,9 @@ sr.reveal('.skill__name-as',{ interval: 200});
 
 
 /*SCROLL WORK*/
-sr.reveal('.projects__img-as',{interval: 200}); 
+sr.reveal('.project__img_f',{interval: 200}); 
+sr.reveal('.project__img_s',{interval: 200}); 
+sr.reveal('.project__img_t',{interval: 200}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input-as',{interval: 200}); 
