@@ -76,6 +76,9 @@ img{
   display: block;
 }
 
+.bg-sc {
+  background-color: var(--first-color);
+}
 /*===== CLASS CSS ===== */
 .section-title-as{
   position: relative;
