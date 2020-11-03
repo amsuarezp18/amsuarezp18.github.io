@@ -47,7 +47,7 @@ sr.reveal('.about__text',{delay: 400});
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{}); 
 sr.reveal('.skills__img',{delay: 600});
-sr.reveal('.skill__name',{ interval: 100}); 
+sr.reveal('.skill__name',{ interval: 200}); 
 
 
 /*SCROLL WORK*/
