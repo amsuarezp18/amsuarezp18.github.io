@@ -51,7 +51,9 @@ sr.reveal('.skill__name-as',{ interval: 200});
 
 
 /*SCROLL WORK*/
-sr.reveal('.projects__img-as',{interval: 200}); 
+sr.reveal('.project__img_f',{interval: 200}); 
+sr.reveal('.project__img_s',{interval: 200}); 
+sr.reveal('.project__img_t',{interval: 200}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input-as',{interval: 200}); 
